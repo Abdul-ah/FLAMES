@@ -29,10 +29,9 @@ def Flamesfn(flam,num,s):
         print("\nYou got ",flam[0],"!!!!!! It means that ",sep="",end="")
         return flam[0]
 
-print("\n\n-------------------------------------/# F L A M E S #/--------------------------------------")
 cha=1
 while(cha!=0):
-    print("\n\n")
+    print("\n\n-------------------------------------/# F L A M E S #/--------------------------------------\n\n\n")
     str1=input("Enter 1st person Name: ")
     str2=input("\nEnter 2nd person Name: ")
     str1=str1.upper()
@@ -172,4 +171,3 @@ while(cha!=0):
             right(90)
             circle(50,180)
     cha=int(input("\nEnter any key to Play again, Enter 0(Zero) to stop: "))
-print("\n\n-------------------------------------/# F L A M E S #/--------------------------------------\n\n")
