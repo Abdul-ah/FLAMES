@@ -32,7 +32,6 @@ def Flamesfn(flam,num,s):
 print("\n\n-------------------------------------/# F L A M E S #/--------------------------------------")
 cha=1
 while(cha!=0):
-    print(cha)
     print("\n\n")
     str1=input("Enter 1st person Name: ")
     str2=input("\nEnter 2nd person Name: ")
@@ -79,7 +78,7 @@ while(cha!=0):
     count=count-reduce
     print("Count Value is:",count,end="\n\n")
     if(count==0):
-        print("Fuumbu")
+        print("Not valid...")
     else:
         indexof=Flamesfn(Flames,count,0)
         if(indexof=="F"):
@@ -172,5 +171,5 @@ while(cha!=0):
             forward(10)
             right(90)
             circle(50,180)
-    cha=int(input("\nEnter any key to Play again, Enter n/N to stop: "))
+    cha=int(input("\nEnter any key to Play again, Enter 0(Zero) to stop: "))
 print("\n\n-------------------------------------/# F L A M E S #/--------------------------------------\n\n")
