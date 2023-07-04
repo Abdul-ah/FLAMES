@@ -170,4 +170,4 @@ while(cha!=0):
             forward(10)
             right(90)
             circle(50,180)
-    cha=int(input("\nEnter any key to Play again, Enter 0(Zero) to stop: "))
+    cha=int(input("\nEnter any number to Play again, Enter 0(Zero) to stop: "))
